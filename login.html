@@ -1,0 +1,19 @@
+<html>
+  <script>
+  function check()
+  {
+   if(frm.uId.value==0)
+   alert("id is required");
+
+   if(frm.pass.value==0)
+   alert("password is required");
+  }
+  </script>
+<body>
+ <form name="frm">
+  ID<input type=text name="uId">
+  Password<input type=password name="pass">
+  <input type>=submit value="sign in" onclick="check()">
+ </form>
+</body>
+</html>
